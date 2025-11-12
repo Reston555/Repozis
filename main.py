@@ -1,5 +1,5 @@
 import telebot
-from Config import API_URL
+from config import API_URL
 bot= telebot.TeleBot(API_URL)
 @bot.message_handler(commands = ['start'])
 def start(message):
